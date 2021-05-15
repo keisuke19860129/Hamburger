@@ -17,54 +17,105 @@
 </head>
 
 <body id="home" class="home">
-    <header class="l-header" id="js-header">
-        <div class="l-header__inner">
-            <h1 class="l-header__title p-title">Hamburger</h1>
-            <form id="form1" class="l-header__form c-header__form" action="#">
-                <input id="sbox1" class="l-header__search c-header__search" name="s" type="text" src="images/search.png">
-                <input id="sbtn1" type="submit" value="検索" />
-            </form>
+    <div class="p-wrapper">
+        <header class="l-header" id="js-header">
+            <div class="l-header__left">
+                <h1 class="c-title u-color">Hamburger</h1>
+            </div>
+            <div class="l-header__right">
+                <div class="p-serchform">
+                    <form method="GET" action="#">
+                        <input class="input" name="s" type="text">
+                        <button class="c-button" type="submit">検索</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="l-sidebar">
+            <a class="l-sidebar__title c-sidebar__title">Menu</a>
+            <h3 class="l-sidebar__burger c-sidebar__burger">バーガー</h3>
+            <ul class="l-slider__menu__list c-slider__menu__list">
+                <li class="l-slider__sub-menu-item"><a href="#">ハンバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">チーズバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">テリヤキバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">アボカドバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">フィッシュバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">ベーコンバーガー</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">チキンバーガー</a></li>
+            </ul>
+            <h3 class="l-slider__menu__burger c-slider__menu">サイド</h3>
+            <ul class="l-slider__menu__list c-slider__menu__list">
+                <li class="l-slider__sub-menu-item"><a href="#">ポテト</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">サラダ</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">ナゲット</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">コーン</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">フィッシュバーガー</a></li>
+            </ul>
+            <h3 class="l-slider__menu__burger c-slider__menu">ドリンク</h3>
+            <ul class="l-slider__menu__list c-slider__menu__list">
+                <li class="l-slider__sub-menu-item"><a href="#">コーラ</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">ファンタ</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">オレンジ</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">アップル</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">紅茶(Ice/Hot)</a></li>
+                <li class="l-slider__sub-menu-item"><a href="#">コーヒー(Ice/Hot)</a></li>
+            </ul>
         </div>
-        
-        <div class="l-header__menu c-header__menu">
-            <h2 class="l-header__menu__title u-header__menu" >Menu</h2>
-            <h3 class="l-header__menu__burger u-header__menu">バーガー</h3>
-            <ul class="l-header__menu__list u-header__menu__list">
-                <li class="l-header__sub-menu-item"><a href="#">ハンバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">チーズバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">テリヤキバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">アボカドバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">フィッシュバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">ベーコンバーガー</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">チキンバーガー</a></li>
-            </ul>
-            <h3 class="l-header__menu__burger u-header__menu">サイド</h3>
-            <ul class="l-header__menu__list u-header__menu__list">
-                <li class="l-header__sub-menu-item"><a href="#">ポテト</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">サラダ</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">ナゲット</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">コーン</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">フィッシュバーガー</a></li>
-            </ul>
-            <h3 class="l-header__menu__burger u-header__menu">ドリンク</h3>
-            <ul class="l-header__menu__list u-header__menu__list">
-                <li class="l-header__sub-menu-item"><a href="#">コーラ</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">ファンタ</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">オレンジ</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">アップル</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">紅茶(Ice/Hot)</a></li>
-                <li class="l-header__sub-menu-item"><a href="#">コーヒー(Ice/Hot)</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <main id="js-main" class="l-main">
-        <div 
-    </main>
-    <footer id="js-footer" class="l-footer">
-        <a href="#" class="l-footer__info">ショップ情報 | ヒストリー</a>
-        <p class="l=footer__copy">Copyright: RaiseTech</p>
-
-    </footer>
-
+        <main id="js-main" class="l-front__main">
+            <div class="p-front__main__wrapper">
+                <div class="p-front__main__container">
+                    <div class="p-front__main__mainvisual">
+                        <h4 class="c-front__title">ダミーサイト</h4>
+                    </div>
+                    <div class="p-front__contents__wrapper">
+                        <div class="p-front__main__container">
+                            <div class="p-front__main__TakeOut">
+                                <h2 class="c-front__service">Take Out<br>__</h2>
+                                <div>
+                                    <dl>
+                                        <dt>小見出しが入ります</dt>
+                                        <dd>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</dd>
+                                    </dl>
+                                </div>
+                                <div>
+                                    <dl>
+                                        <dt>小見出しが入ります</dt>
+                                        <dd>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="p-front__main__EatIn">
+                                <h2 class="c-front__service">Eat In<br>__</h2>
+                                <div>
+                                    <dl>
+                                        <dt>小見出しが入ります</dt>
+                                        <dd>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</dd>
+                                    </dl>
+                                </div>
+                                <div>
+                                    <dl>
+                                        <dt>小見出しが入ります</dt>
+                                        <dd>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-front__main__map">
+                        <div class="p-front__map">
+                            <h2 class="c-front__map">見出しが入ります<br>__</h2>
+                            <p class="p-front__map__text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                                テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="js-footer" class="l-footer">
+            <a href="#" class="l-footer__info">ショップ情報 | ヒストリー</a>
+            <p class="l=footer__copy">Copyright: RaiseTech</p>
+        </footer>
+    </div>
 </body>
+
+</html>
