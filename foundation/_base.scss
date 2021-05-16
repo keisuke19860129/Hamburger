@@ -1,12 +1,9 @@
 @charset "UTF-8"
 
-html{
-    background-color: white;
-    color: white;
-}
-
 body{
     &.is-open{
         position: fixed;
     }
+    background-color: white;
+    color: white;
 }
