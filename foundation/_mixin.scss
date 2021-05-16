@@ -1,0 +1,15 @@
+
+$pc: 1200px; // PC
+$tab: 768px; // タブレット
+
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (min-width: ($tab)) {
+    @content;
+  }
+}
