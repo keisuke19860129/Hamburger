@@ -19,22 +19,22 @@
 <body id="home" class="home">
     <div class="p-wrapper">
         <header class="l-header" id="js-header">
-            <div class="l-header__left">
-                <h1 class="c-header__title">Hamburger</h1>
+            <div class="c-left__header">
+                <h1 class="c-title__header">Hamburger</h1>
             </div>
-            <div class="l-header__right">
+            <div class="c-right__header">
                 <div class="p-serchform">
-                    <form method="GET" action="#">
-                        <input class="input" name="s" type="text">
-                        <button class="c-button" type="submit">検索</button>
+                    <form class="p-front__form" method="GET" action="#">
+                        <input class="c-input__button" name="s" type="text">
+                        <button class="c-submit__button" type="submit">検索</button>
                     </form>
                 </div>
             </div>
         </header>
         <div class="l-sidebar">
-            <a class="c-sidebar__title">Menu</a>
-            <h3 class="c-sidebar__burger">バーガー</h3>
-            <ul class="c-slider__menu__list">
+            <a class="c-title__sidebar">Menu</a>
+            <h3 class="c-burger__sidebar">バーガー</h3>
+            <ul class="c-menu__list__slider">
                 <li class="c-slider__sub-menu-item"><a href="#">ハンバーガー</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">チーズバーガー</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">テリヤキバーガー</a></li>
@@ -44,15 +44,15 @@
                 <li class="c-slider__sub-menu-item"><a href="#">チキンバーガー</a></li>
             </ul>
             <h3 class="c-slider__menu">サイド</h3>
-            <ul class="c-slider__menu__list">
+            <ul class="c-menu__list__slider">
                 <li class="c-slider__sub-menu-item"><a href="#">ポテト</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">サラダ</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">ナゲット</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">コーン</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">フィッシュバーガー</a></li>
             </ul>
-            <h3 class="l-slider__menu__burger c-slider__menu">ドリンク</h3>
-            <ul class="l-slider__menu__list c-slider__menu__list">
+            <h3 class="c-slider__menu">ドリンク</h3>
+            <ul class="c-menu__list__slider">
                 <li class="c-slider__sub-menu-item"><a href="#">コーラ</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">ファンタ</a></li>
                 <li class="c-slider__sub-menu-item"><a href="#">オレンジ</a></li>
@@ -61,15 +61,19 @@
                 <li class="c-slider__sub-menu-item"><a href="#">コーヒー(Ice/Hot)</a></li>
             </ul>
         </div>
-        <main id="js-main" class="l-front__main">
+        <main id="js-main" class="l-front__main p-front__visual">
             <div class="p-front__main__wrapper">
                 <div class="p-front__main__container">
-                    <div class="p-front__main__mainvisual">
-                        <h4 class="c-front__title">ダミーサイト</h4>
+                    <div class="p-front__main">
+                        <h4 class="p-front__title">ダミーサイト</h4>
                     </div>
+                </div>
+            </div>
+                </main>
+                <article>
                     <div class="p-front__contents__wrapper">
                         <div class="p-front__main__container">
-                            <div class="p-front__main__TakeOut">
+                            <div class="p-visual__TakeOut">
                                 <h2 class="c-front__service">Take Out<br>__</h2>
                                 <div>
                                     <dl>
@@ -108,9 +112,9 @@
                                 テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </main>
+                </article>
+
+        
         <footer id="js-footer" class="l-footer">
             <a href="#" class="l-footer__info">ショップ情報 | ヒストリー</a>
             <p class="l=footer__copy">Copyright: RaiseTech</p>
