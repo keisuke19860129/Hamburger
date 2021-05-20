@@ -553,7 +553,6 @@ body.is-open {
   background-color: #8b705a;
   height: 150px;
   padding-top: 50px;
-  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 100;
@@ -573,7 +572,7 @@ body.is-open {
   text-align: center;
   color: white;
   font-size: 10px;
-  margin-left: 80px;
+  margin-left: 75px;
 }
 
 .l-header {
@@ -614,7 +613,7 @@ body.is-open {
 }
 
 .c-input__button {
-  display: inline-block;
+  display: inline;
   border-radius: 0.4em;
   width: 20%;
   border: #707070 solid 1px;
@@ -641,10 +640,20 @@ a {
   color: black;
 }
 
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  white-space: normal;
+}
+
 .p-front__visual {
   display: block;
-  background: transparent url(..//images/Front__Top.jpg) no-repeat no-repeat center;
-  background-attachment: fixed;
+  background: transparent url(..//images/Front__Top.jpg) no-repeat center center;
+  background-attachment: scroll;
   background-size: cover;
   margin: 0 auto;
   height: 530px;
@@ -663,7 +672,27 @@ a {
 }
 
 .p-visual__TakeOut {
+  display: block;
+  height: 1196px;
   background: transparent url(..//images/Front__burger.png) no-repeat center left;
+}
+
+.p-visual__TakeOut h2 {
+  color: white;
+}
+
+.p-visual__EatIn {
+  height: 1196px;
+  background: transparent url(..//images/Front__Threeburger.png) no-repeat center left;
+}
+
+.p-visual__EatIn h2 {
+  color: white;
+}
+
+.p-visual__map {
+  height: 649px;
+  background: transparent url(..//images/Front__Map.png) no-repeat;
 }
 
 .p-serchform {

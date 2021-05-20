@@ -1,7 +1,7 @@
 .p-front__visual{
     display: block;
-    background:transparent url(..//images/Front__Top.jpg) no-repeat no-repeat center;
-    background-attachment: fixed;
+    background:transparent url(..//images/Front__Top.jpg) no-repeat center  center;
+    background-attachment: scroll;
     background-size: cover;
     margin:0 auto;   
     height: 530px;
@@ -15,10 +15,27 @@
         padding-top: 10%;
         margin-left: 10%;
         font-weight: 20;
-
     }
 }
 .p-visual__TakeOut{
+    display: block;
+    height: 1196px;
+    background:transparent url(..//images/Front__burger.png);
+    justify-items: center;
+    h2{
+        color: white;
+    }
+}
 
-    background:transparent url(..//images/Front__burger.png) no-repeat center left;
+.p-visual__EatIn{
+    height: 1196px;
+    background:transparent url(..//images/Front__Threeburger.png);
+    h2{
+        color: white;
+    }
+}
+
+.p-visual__map{
+    height: 649px;
+    background:transparent url(..//images/Front__Map.png) no-repeat;
 }
