@@ -3,23 +3,20 @@
     height: 150px;
     padding-top: 50px;
     bottom: 0;
-    width: 100%;
     z-index: 100;
 
     a{
-        display: block;
+        display:block;
         color: white;
         text-align: center;
         text-decoration: none;
-        position: center;
-        width: 100%;
     }
     p{
-        display: block;
+        display:block;
         text-align: center;
+        justify-items: center;
         color: white;
         font-size: 10px;
-        margin-left:75px;
     }
 }
 

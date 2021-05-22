@@ -1,8 +1,25 @@
-.p-article__front{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  justify-items: center;
-  padding-top: 250px;
-  margin-top: 2.5rem;
-  top: 100px;
+.p-visual__TakeOut {
+  width: 625px;
+  height: 1196px;
+  background:transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
+  h3{
+      color: white;
+      font-size: 106px;
 
+  }
+}
+
+.p-visual__EatIn{
+  width: 625px;
+  height: 1196px;
+  background:transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
+  h3{
+    color: white;
+    font-size: 106px;
+  }
+}
+
+.p-visual__map{
+  height: 649px;
+  background:transparent url(..//images/Front__Map.png) no-repeat center center;
 }
