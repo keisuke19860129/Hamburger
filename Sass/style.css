@@ -554,22 +554,29 @@ body.is-open {
   height: 150px;
   padding-top: 50px;
   bottom: 0;
-  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .l-footer a {
-  display: block;
   color: white;
-  text-align: center;
   text-decoration: none;
 }
 
 .l-footer p {
-  display: block;
-  text-align: center;
-  justify-items: center;
   color: white;
   font-size: 10px;
+  margin-left: 5%;
 }
 
 .l-header {
@@ -578,16 +585,13 @@ body.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: auto;
 }
 
 .l-header h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  height: 85px;
-  width: auto;
-  padding: 65px 64px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 64px;
   color: #707070;
@@ -596,13 +600,10 @@ body.is-open {
 .l-front__main {
   line-height: 0;
   font-size: 0;
-  display: block;
-  background: transparent url(..//images/Front__Top.jpg) no-repeat center center;
-  background-attachment: scroll;
-  background-size: cover;
-  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 530px;
-  font-size: -10;
   z-index: 100;
 }
 
@@ -610,20 +611,24 @@ body.is-open {
   font-size: 2.5rem;
   color: white;
   margin-top: -10px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 10%;
   margin-left: 10%;
   font-weight: 20;
 }
 
+.l-front__main__map {
+  height: 649px;
+  background: transparent url(..//images/Front__Map.png) no-repeat no-repeat;
+}
+
 .l-sidebar {
-  height: 100%;
-  position: fixed;
   right: 0;
   top: 0;
   bottom: 0;
   background-color: #f2ede9;
-  z-index: 200;
   width: 367px;
 }
 
@@ -665,6 +670,7 @@ a {
 }
 
 .p-visual__EatIn {
+  margin-left: 10%;
   width: 625px;
   height: 1196px;
   background: transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
@@ -675,15 +681,14 @@ a {
   font-size: 106px;
 }
 
-.p-visual__map {
-  height: 649px;
-  background: transparent url(..//images/Front__Map.png) no-repeat center center;
+.p-visual__wrapper {
+  background: transparent url(..//images/Front__Top.jpg) no-repeat;
+  height: 747px;
+  width: 100%;
 }
 
 .p-serchform {
-  float: left;
-  margin-top: 5%;
-  margin-left: 30%;
+  margin-top: 3.2%;
 }
 
 .p-contents__front-section {
@@ -691,14 +696,35 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-items: space-around;
+  -webkit-justify-items: space-around;
+  margin: 5% 0;
 }
 
 .p-wrapper__front-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -webkit-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+.u-textarea__front {
+  display: flex-start;
+  width: 90%;
+}
+
+.u-textarea__front dl {
+  position: center;
+  border: solid 1px black;
+  background-color: rgba(235, 227, 235, 0.5);
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
