@@ -1,8 +1,7 @@
 .l-footer{
     background-color:rgb(139, 112, 90);
-    height: 150px;
-    padding-top: 50px;
-    bottom: 0;
+    height:calc(100% - 80%);
+    padding:calc(100% - 99%);
     display: flex;
     display: -webkit-flex;
     align-items: center;
@@ -14,11 +13,14 @@
     a{
         color: white;
         text-decoration: none;
+        justify-items: space-around;
+        -webkit-items:space-around;
     }
     p{
         color: white;
         font-size: 10px;
-        margin-left: 5%;
+        justify-items: space-around;
+        -webkit-items:space-around;
     }
 }
 

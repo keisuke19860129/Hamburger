@@ -1,5 +1,14 @@
-.p-visual__wrapper{
-    background:transparent url(..//images/Front__Top.jpg)no-repeat;
-    height: 747px;
-    width: 100%;
+.p-visual__TakeOut { 
+    margin-left:-15%;
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+    height: 100vh;
+    background:transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
+}
+
+.p-visual__EatIn{ 
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+    height: 100vh;
+    background:transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
 }

@@ -551,9 +551,8 @@ body.is-open {
 
 .l-footer {
   background-color: #8b705a;
-  height: 150px;
-  padding-top: 50px;
-  bottom: 0;
+  height: calc(100% - 80%);
+  padding: calc(100% - 99%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,57 +570,58 @@ body.is-open {
 .l-footer a {
   color: white;
   text-decoration: none;
+  justify-items: space-around;
+  -webkit-items: space-around;
 }
 
 .l-footer p {
   color: white;
   font-size: 10px;
-  margin-left: 5%;
+  justify-items: space-around;
+  -webkit-items: space-around;
 }
 
 .l-header {
+  width: calc(100% - 20%);
   background-color: #FFF7EF;
-  height: 217px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: auto;
 }
 
 .l-header h1 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 64px;
+  font-size: calc(100vh / 20);
   color: #707070;
 }
 
 .l-front__main {
-  line-height: 0;
-  font-size: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 530px;
   z-index: 100;
+  background: transparent url(..//images/Front__Top.jpg) left no-repeat no-repeat;
+  height: calc(100vh - 55vh);
+  width: calc(100% - 20%);
+  background-size: calc(100%);
 }
 
 .l-front__main h4 {
-  font-size: 2.5rem;
+  font-size: calc(100rem - 97.5rem);
   color: white;
-  margin-top: -10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 10%;
-  margin-left: 10%;
+  justify-items: center;
   font-weight: 20;
 }
 
 .l-front__main__map {
-  height: 649px;
-  background: transparent url(..//images/Front__Map.png) no-repeat no-repeat;
+  width: 79%;
+  height: 65%;
+  background: transparent url(..//images/Front__Map.png) no-repeat left;
+  background-color: #1d1a1a;
+  background-size: 100%;
 }
 
 .l-sidebar {
@@ -658,33 +658,35 @@ a {
   color: black;
 }
 
-.p-visual__TakeOut {
-  width: 625px;
-  height: 1196px;
-  background: transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
-}
-
-.p-visual__TakeOut h3 {
+article h3 {
   color: white;
-  font-size: 106px;
+  font-size: 10vh;
+  margin: 2% 0 0 3%;
 }
 
-.p-visual__EatIn {
-  margin-left: 10%;
-  width: 625px;
-  height: 1196px;
+.p-visual__map {
+  width: 950px;
+  height: 649px;
+  background-color: rgba(26, 24, 24, 0.6);
+}
+
+.p-visual__TakeOut {
+  margin-left: -15%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-justify-content: space-between;
+  height: 100vh;
   background: transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
 }
 
-.p-visual__EatIn h3 {
-  color: white;
-  font-size: 106px;
-}
-
-.p-visual__wrapper {
-  background: transparent url(..//images/Front__Top.jpg) no-repeat;
-  height: 747px;
-  width: 100%;
+.p-visual__EatIn {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-justify-content: space-between;
+  height: 100vh;
+  background: transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
 }
 
 .p-serchform {
@@ -692,6 +694,8 @@ a {
 }
 
 .p-contents__front-section {
+  height: 100vh;
+  width: 90%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -700,20 +704,18 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-justify-content: space-around;
-  justify-items: space-around;
-  -webkit-justify-items: space-around;
-  margin: 5% 0;
+  margin: 5% 0 0 0;
 }
 
 .p-wrapper__front-section {
+  height: 100vh;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: -webkit-flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .u-textarea__front {
@@ -723,8 +725,7 @@ a {
 
 .u-textarea__front dl {
   position: center;
-  border: solid 1px black;
-  background-color: rgba(235, 227, 235, 0.5);
+  background-color: rgba(232, 237, 238, 0.7);
   font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
