@@ -1,17 +1,9 @@
-article{
-  h3{
-      color: white;
-      font-size:10vh;
-      margin: 2% 0 0 3%;
-  }
-  dl{
-
-
-  }
-}
-
 .p-visual__map{
-  width: 950px;
+  width: calc(30%);
   height: 649px;
   background-color: rgba(26, 24, 24, 0.6);
+  h2{
+    font-size: 5vh;
+    color: white;
+  }
 }

@@ -1,9 +1,24 @@
 .u-textarea__front{
-    display: flex-start;
-    width: 90%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 200px;
     dl{
-        position: center;
         background-color:rgba(232, 237, 238, 0.7);
-        font-size: 1.5rem;
+        margin-left: 12%;
+        width:calc(100% - 25%);
+        dt{
+            
+        }
+        dd{
+        }
     }
+}
+.u-front__map__text{
+    color: white;
 }

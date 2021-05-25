@@ -1,14 +1,27 @@
 .p-visual__TakeOut { 
-    margin-left:-15%;
+    width:100vw;
     justify-content:space-between;
     -webkit-justify-content:space-between;
     height: 100vh;
     background:transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
+    h3{
+        display:block;
+        margin: -1% 0 0 10%;
+        color: white;
+        font-size: 8vh;
+    }
 }
 
-.p-visual__EatIn{ 
+.p-visual__EatIn{
+    width:100vw; 
     justify-content:space-between;
     -webkit-justify-content:space-between;
     height: 100vh;
     background:transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
+    h3{
+        display:block;
+        margin: -1% 0 0 10%;
+        color: white;
+        font-size: 8vh;
+    }
 }
