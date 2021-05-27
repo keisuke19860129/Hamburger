@@ -1,24 +1,40 @@
 .u-textarea__front{
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
+    -webkit-justify-content:bottom;
+    justify-content:flex-end;
     -webkit-align-items: flex-start;
     align-items: flex-start;
     -webkit-flex-direction: column;
     flex-direction: column;
-    height: 200px;
+    height: 85%;
+    color: #3C2A10;
+    .wf-mplus1p { font-family: 'M PLUS 1p', sans-serif; }
     dl{
+        height:15vh;
         background-color:rgba(232, 237, 238, 0.7);
         margin-left: 12%;
         width:calc(100% - 25%);
         dt{
-            
+            height:5vh;
+            width: 80%;
+            font-size:1.3vw;
+            margin: 3% 0 0 3%;            
+            font-style: bold;
         }
         dd{
+             font-size:auto;
+             width:80%;
+             margin: 3% 0 0 3%;
+
         }
     }
 }
 .u-front__map__text{
     color: white;
+    height:5vh;
+    width: 80%;
+    font-size:1.3vw;
+    margin: 3% 0 0 3%;            
+    font-style: bold;
 }

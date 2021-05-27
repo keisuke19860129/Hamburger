@@ -2,11 +2,18 @@
     width:100vw;
     justify-content:space-between;
     -webkit-justify-content:space-between;
-    height: 100vh;
+    height: 110vh;
     background:transparent url(..//images/Front__Threeburger.png) center no-repeat no-repeat;
     h3{
         display:block;
         margin: -1% 0 0 10%;
+        color: white;
+        font-size: 8vh;
+    }
+    span{
+        color: white;
+        display:block;
+        margin: -10% 0 0 10%;
         color: white;
         font-size: 8vh;
     }
@@ -16,7 +23,7 @@
     width:100vw; 
     justify-content:space-between;
     -webkit-justify-content:space-between;
-    height: 100vh;
+    height: 110vh;
     background:transparent url(..//images/Front__burger.png) center no-repeat no-repeat;
     h3{
         display:block;
@@ -24,4 +31,28 @@
         color: white;
         font-size: 8vh;
     }
+    span{
+        color: white;
+        display:block;
+        margin: -10% 0 0 10%;
+        color: white;
+        font-size: 8vh;
+    }
 }
+
+.p-visual__map{
+    width: 40vw;
+    height: 60vh;
+    background-color: rgba(26, 24, 24, 0.6);
+    h2{
+      font-size: 5vh;
+      color: white;
+    }
+    span{
+        color: white;
+        display:block;
+        margin: -10% 0 0 10%;
+        color: white;
+        font-size: 8vh;
+    }
+  }
