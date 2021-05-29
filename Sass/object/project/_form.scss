@@ -1,3 +1,5 @@
 .p-serchform{
+    @include pc(){
 margin-top: 3.2%;
+}
 }

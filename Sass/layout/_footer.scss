@@ -1,4 +1,5 @@
 .l-footer{
+    @include pc(){
     background-color:rgb(139, 112, 90);
     height:calc(100% - 80%);
     padding:calc(100% - 99%);
@@ -8,8 +9,6 @@
     -webkit-align-items: center;
     flex-direction: column;
     -webkit-flex-direction:column;
-    
-
     a{
         color: white;
         text-decoration: none;
@@ -22,6 +21,7 @@
         justify-items: space-around;
         -webkit-items:space-around;
     }
+}
 }
 
 

@@ -1,4 +1,5 @@
-.p-contents__front-section{
+.p-wrapper__front-section{
+  @include pc(){
   height: 100vh;
   width: 80%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,7 +10,7 @@ justify-content: space-around;
   margin: 5% 0 5% 0;
 
 }
-.p-wrapper__front-section{
+.p-container__front-section{
   height: 100vh;
   width: 88%;
   display: -webkit-flex;
@@ -17,4 +18,5 @@ justify-content: space-around;
   -webkit-justify-content: space-between;
   justify-content: space-between;
 
+}
 }

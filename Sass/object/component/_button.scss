@@ -1,4 +1,5 @@
 .c-input__button{
+    @include pc(){
     width:396px;
     border-radius: 0.4em;
     border: #707070 solid 1px;
@@ -11,4 +12,5 @@
     width:136px;
     cursor: pointer;
 
+}
 }
