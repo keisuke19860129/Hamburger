@@ -1,8 +1,23 @@
 .l-front__main{
-  @include pc(){
+  background:transparent url(..//images/Front__Top.jpg)no-repeat; 
+  display:-webkit-flex;
+  height:30vh;
+  width:100vw;
+  background-size:  100vw;;
+  h2{
     display: flex;
     display:-webkit-flex;
+    font-size: 3vw;
+    height: 80%;
+      color: white;
+      align-items: center;
+      margin-left: 1%;
+      font-weight: 100;
+  }
+  @include pc(){
     background:transparent url(..//images/Front__Top.jpg) left no-repeat no-repeat; 
+    display: flex;
+    display:-webkit-flex;
     height: calc(45vh);
     width:calc(100% - 20%);
     background-size:calc(100%);
@@ -10,20 +25,19 @@
     h2{
       display: flex;
       display:-webkit-flex;
-      font-size: 3vh;
         color: white;
-        place-self: center;
         margin-left: 1%;
         font-weight: 100;
     }
   }
 }
   .l-front__main__map{
+    background:transparent url(..//images/Front__Map.png)  no-repeat;
     @include pc(){
+      background:transparent url(..//images/Front__Map.png)  no-repeat left;
     margin: 10% 0 0 0;
     width:80%;
     height: 65%;
-    background:transparent url(..//images/Front__Map.png)  no-repeat left;
     background-color:rgba(29, 26, 26, 1);
     background-size:100%;
   }

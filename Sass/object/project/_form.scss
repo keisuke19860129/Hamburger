@@ -1,5 +1,10 @@
-.p-serchform{
+.p-front__form{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    justify-items: center;
     @include pc(){
-margin-top: 3.2%;
+    align-items: center;
+    
 }
 }

@@ -1,5 +1,4 @@
 .u-textarea__front{
-    @include pc(){
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content:bottom;
@@ -19,9 +18,10 @@
         dt{
             height:5vh;
             width: 80%;
-            font-size:1.3vw;
+            font-size:150%;
             margin: 3% 0 0 3%;            
             font-style: bold;
+            font-weight: 500;
         }
         dd{
             font-size:auto;
@@ -30,7 +30,6 @@
 
         }
     }
-}
 }
 
 .u-front__map__text{

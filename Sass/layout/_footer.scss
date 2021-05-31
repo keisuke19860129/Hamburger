@@ -1,6 +1,20 @@
 .l-footer{
-    @include pc(){
     background-color:rgb(139, 112, 90);
+    height:150px;
+    width:100%;
+    a{
+        color: white;
+        text-decoration: none;
+        justify-items: space-around;
+        -webkit-items:space-around;
+    }
+    p{
+        color: white;
+        font-size: 10px;
+        justify-items: space-around;
+        -webkit-items:space-around;
+    }
+    @include pc(){
     height:calc(100% - 80%);
     padding:calc(100% - 99%);
     display: flex;
@@ -23,6 +37,3 @@
     }
 }
 }
-
-
-

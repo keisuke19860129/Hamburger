@@ -1,16 +1,27 @@
-.c-input__button{
-    @include pc(){
-    width:396px;
-    border-radius: 0.4em;
+.c-input__button{   
+    //スマホ;
+    width: 40%;
+    height: 5vh;
+    border-radius: 6px;
     border: #707070 solid 1px;
-    height: 46px;
-}
-.c-submit__button{
-    border-radius: 0.4em;
-    border: #707070 solid 1px;
-    height: 46px;
-    width:136px;
-    cursor: pointer;
+    margin-right: 1%;
+    @include pc{
+    width:20vw;
+    
 
 }
+}
+
+.c-submit__button{
+    //スマホ
+    
+    width: 20%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: #707070 solid 1px;
+    @include pc{
+        width:5vw;
+        cursor: pointer;
+    }
 }

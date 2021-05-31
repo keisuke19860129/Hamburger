@@ -1,0 +1,32 @@
+.c-slider__menu{
+    display: none;
+    @include pc(){
+    color:#707070;
+    display: -webkit-flex;
+    display: flex;
+    align-items: space-between;
+    -webkit-align-items:space-between;
+    margin: 25% 0 -10% 10%;
+    font-weight: 300;
+}
+}
+.c-menu__list__slider{
+    li{
+        display: none;
+        @include pc(){
+    display: flex;
+    display:-webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+    align-items:flex-start;
+    -webkit-align-items:flex-start;
+        a{
+            width:7vw;
+            text-decoration: none;
+            color:#707070;
+            font-size: 100%;
+            font-weight: 300;
+        }
+    }
+}
+}    
