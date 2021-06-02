@@ -1,7 +1,7 @@
 .l-footer{
     justify-content: center;
     background-color:rgb(139, 112, 90);
-    height:150px;
+    height:15vh;
     width:100%;
     display: flex;
     display: -webkit-flex;
@@ -22,8 +22,6 @@
         -webkit-items:space-around;
     }
     @include pc(){
-    height:calc(100% - 80%);
-    padding:calc(100% - 99%);
     display: flex;
     display: -webkit-flex;
     align-items: center;
