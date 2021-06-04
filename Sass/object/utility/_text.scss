@@ -1,13 +1,10 @@
 .u-textarea__front{
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content:bottom;
-    justify-content:flex-end;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
     -webkit-flex-direction: column;
     flex-direction: column;
-    height: 55vh;
+    justify-content: center;
+    height: 45vh;
     color: #3C2A10;
     .wf-mplus1p { font-family: 'M PLUS 1p', sans-serif; }
     dl{
@@ -16,7 +13,6 @@
         margin-left: 12%;
         width:75%;
         dt{
-            height:5vh;
             width: 80%;
             font-size:150%;
             margin: 0 0 0 3%;            
@@ -32,6 +28,14 @@
     @include pc(){
         margin: 5% 0 0 0;
         height: 80vh;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content:bottom;
+        justify-content:flex-end;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        -webkit-flex-direction: column;
+        flex-direction: column;
         dl{
             height:15vh;
             background-color:rgba(232, 237, 238, 0.7);
