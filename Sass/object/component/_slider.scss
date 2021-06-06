@@ -1,32 +1,72 @@
-.c-slider__menu{
-    display: none;
-    @include pc(){
+.c-slider__menu {
+    cursor: pointer;
+    display:none;
+    transform: translateX(100%);
+    transition: all 0.6s;
     color:#707070;
-    display: -webkit-flex;
-    display: flex;
-    align-items: space-between;
-    -webkit-align-items:space-between;
-    margin: 25% 0 -10% 10%;
-    font-weight: 300;
-}
-}
-.c-menu__list__slider{
-    li{
-        display: none;
         @include pc(){
-    display: flex;
-    display:-webkit-flex;
-    justify-content: space-between;
-    -webkit-justify-content:space-between;
-    align-items:flex-start;
-    -webkit-align-items:flex-start;
+        transform: unset;
+        display: -webkit-flex;
+        display: flex;
+        align-items: space-between;
+        -webkit-align-items:space-between;
+        margin: 10% 0 -10% 10%;
+        cursor: unset;
+    }
+}
+.c-menu__list__slider {
+    li{
+        transition: all 1s;
+        display: none;
         a{
-            width:7vw;
+            cursor: pointer;
+            position: relative;
+            list-style: none;
             text-decoration: none;
-            color:#707070;
-            font-size: 100%;
-            font-weight: 300;
+        }
+        @include pc(){
+            display: flex;
+            display:-webkit-flex;
+            justify-content: space-between;
+            -webkit-justify-content:space-between;
+            align-items:flex-start;
+            -webkit-align-items:flex-start;
+                a{
+                width:7vw;
+                text-decoration: none;
+                color:#707070;
+                font-size: 100%;
+                font-weight: 300;
+            }
         }
     }
 }
-}    
+
+//jQueryでクラスを付与分//
+.c-slider__menu.active {
+    color:#707070;
+    display: block;
+    z-index : 2;
+    top  : 0;
+    left : 0;
+    width: 100%;
+    transition: 1s;
+    transform: translateX(10%);
+    cursor: unset;
+}
+
+.c-slider__sub-menu-item.active {
+    display: block;
+    text-decoration :none;
+    a{
+        color: #707070;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        font-size: 1.5vh;
+        display: flex;
+        margin: 5% 0 0 5%;
+        position: unset;
+        transform: translateX(10%);
+        transition: 1s;
+    }
+}
