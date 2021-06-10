@@ -109,3 +109,30 @@
       }
     }
   }
+
+  .p-archive__visual{
+    margin: 0;
+    background: transparent url(..//images/archive__main.png) no-repeat;
+    height: 22vh;
+    background-size:100vh;
+    background-color: rgba(29, 26, 26, 1);
+    h2{
+      display: flex;
+      display: -webkit-flex;
+      font-size:8vw;
+      height: 13vh;
+      color: white;
+      align-items:flex-end;
+      margin: 0 0 0 4%;
+      font-weight: 700;
+      width: 90vw;
+    }
+    p{
+      margin:0 0 0 5%;
+      font-size: 3vw;
+      color: white;
+    }
+    @include pc{
+      background-size: 100vw;
+    }
+  }
