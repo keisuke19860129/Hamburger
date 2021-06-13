@@ -113,14 +113,14 @@
   .p-archive__visual{
     margin: 0;
     background: transparent url(..//images/archive__main.png) no-repeat;
-    height: 22vh;
+    height: 34vh;
     background-size:100vh;
     background-color: rgba(29, 26, 26, 1);
     h2{
       display: flex;
       display: -webkit-flex;
-      font-size:8vw;
-      height: 13vh;
+      font-size:10vw;
+      height: 15vh;
       color: white;
       align-items:flex-end;
       margin: 0 0 0 4%;
@@ -129,7 +129,7 @@
     }
     p{
       margin:0 0 0 5%;
-      font-size: 3vw;
+      font-size: 5vw;
       color: white;
     }
     @include pc{
