@@ -745,8 +745,9 @@ body.is-open {
     top: 0;
     right: 0;
     background-color: #f2ede9;
+    background-size: cover;
     width: 20%;
-    height: 241vh;
+    padding-bottom: 46%;
   }
   .l-sidebar a {
     color: #707070;
@@ -952,6 +953,42 @@ body.is-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 1025px) {
+  .c-grid {
+    padding-top: 1%;
+    padding: unset;
+    width: 100%;
+    padding: unset;
+    height: 100%;
+  }
+  .c-grid .c-grid__img {
+    width: 40vw;
+    height: 50vh;
+    display: block;
+    background-size: 100%;
+  }
+  .c-grid .c-grid__content {
+    display: block;
+    width: 36.5vw;
+    margin-left: 43%;
+    margin-top: -24.5%;
+    height: 50vh;
+  }
+  .c-grid .c-grid__content h2 {
+    font-size: 2vw;
+  }
+  .c-grid .c-grid__content h4 {
+    font-size: 1vw;
+  }
+  .c-grid .c-grid__content p {
+    font-size: 0.5vw;
+    margin: unset;
+  }
+  .c-grid .c-grid__content .c-grid__link {
+    margin-top: 0;
+  }
 }
 
 .c-slider__menu {
@@ -1224,6 +1261,27 @@ body.is-open {
 @media (min-width: 1025px) {
   .p-archive__visual {
     background-size: 100vw;
+    width: 100%;
+  }
+  .p-archive__visual h2 {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 60%;
+    font-size: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    margin: auto;
+  }
+  .p-archive__visual p {
+    width: 20%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1vw;
+    margin: -3% 0 0 17%;
   }
 }
 
@@ -1389,5 +1447,27 @@ body.is-open {
   width: 88vw;
   margin: 4%;
   text-align: left;
+}
+
+@media (min-width: 1025px) {
+  .u-archive__text {
+    height: unset;
+    margin: unset;
+    color: #707070;
+  }
+  .u-archive__text h2 {
+    color: #707070;
+    padding: unset;
+    font-size: 2vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 4%;
+    font-weight: unset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .u-archive__text p {
+    margin-bottom: unset;
+  }
 }
 /*# sourceMappingURL=style.css.map */

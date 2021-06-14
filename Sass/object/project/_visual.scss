@@ -134,5 +134,20 @@
     }
     @include pc{
       background-size: 100vw;
+      width: 100%;
+    h2{
+      align-items:flex-end;
+      height: 60%;
+      font-size: 3vw;
+      display: flex;
+      font-weight: 700;
+      margin: auto;
+    }
+    p{
+      width: 20%;
+      align-items: center;
+      font-size: 1vw;
+      margin: -3% 0 0 17%;
     }
   }
+}

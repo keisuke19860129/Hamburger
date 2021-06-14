@@ -49,7 +49,40 @@
         height: 15%;
         margin: 0 auto;
         text-decoration: none;
-            justify-content: space-around;
-            align-items: center;    
+        justify-content: space-around;
+        align-items: center;    
+    }
+    @include pc(){
+        padding-top: 1%;
+        padding: unset;
+        width: 100%;
+        padding: unset;
+        height: 100%;
+        .c-grid__img{
+            width: 40vw;
+            height: 50vh;
+            display: block;
+            background-size:100%;
+        }
+        .c-grid__content{
+            display: block;
+            width: 36.5vw;
+            margin-left: 43%;
+            margin-top: -24.5%;
+            height: 50vh;
+            h2{
+                font-size: 2vw;
+            }
+            h4{
+                font-size: 1vw;
+            }
+            p{
+                font-size: 0.5vw;
+                margin: unset;
+            }
+            .c-grid__link{
+                margin-top: 0;
+            }
+        }
     }
 }

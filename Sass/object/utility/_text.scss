@@ -90,6 +90,22 @@
         width: 88vw;
         margin: 4%;
         text-align: left;
-        
+    }
+    @include pc(){
+        height: unset;
+        margin: unset;
+        color: #707070;
+        h2{
+            color: #707070;
+            padding: unset;
+            font-size: 2vw;
+            justify-content: flex-start;
+            margin-left: 4%;
+            font-weight: unset;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        p{
+            margin-bottom: unset
+        }
     }
 }
