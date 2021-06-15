@@ -36,16 +36,14 @@
 }
 
 .l-front__main__map {
-  background: transparent url(..//images/Front__Map.png) no-repeat;
+  background: url(..//images/Front__Map.png) no-repeat black;
   height: 65vh;
-  background-color: rgba(29, 26, 26, 1);
   background-size: cover;
   @include pc() {
-    background: transparent url(..//images/Front__Map.png) no-repeat left;
     margin: 10% 0 0 0;
     width: 80%;
     height:60vh;
-    background-color: rgba(29, 26, 26, 1);
+    background-repeat: round;
     background-size: 100%;
   }
 }

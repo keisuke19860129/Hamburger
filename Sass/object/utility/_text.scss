@@ -6,7 +6,6 @@
     justify-content: center;
     height: 45vh;
     color: #3C2A10;
-    .wf-mplus1p { font-family: 'M PLUS 1p', sans-serif; }
     dl{
         height:10vh;
         background-color:rgba(232, 237, 238, 0.7);
@@ -44,20 +43,19 @@
             dt{
                 height:5vh;
                 width: 80%;
-                font-size:150%;
+                font-size:2vw;
                 margin: 3% 0 0 3%;            
                 font-style: bold;
                 font-weight: 500;
             }
             dd{
-                font-size:auto;
+                font-size:1vw;
                 width:80%;
                 margin: 3% 0 0 3%;
             }
         }
     }
 }
-
 .u-front__map__text{
     color: white;
     width: 80%;
@@ -72,7 +70,6 @@
         font-style: bold;
     }
 }
-
 .u-archive__text{
     height: 40vh;
     margin-bottom: 5%;
