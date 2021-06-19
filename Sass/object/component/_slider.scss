@@ -32,7 +32,6 @@
             align-items:flex-start;
             -webkit-align-items:flex-start;
                 a{
-                width:7vw;
                 text-decoration: none;
                 color:#707070;
                 font-size: 100%;
@@ -40,6 +39,18 @@
             }
         }
     }
+}
+.c-menu__list__slider2{
+    @include pc(){
+    height: 193vh;
+    background-color: #f2ede9;
+}
+}
+.c-menu__list__slider3{
+    @include pc(){
+    height: 274.5vh;
+    background-color: #f2ede9;
+}
 }
 
 //jQueryでクラスを付与分//
@@ -70,3 +81,5 @@
         transition: 1s;
     }
 }
+
+
