@@ -86,5 +86,32 @@
     font-size: 1vw;
     margin: -3% 0 0 17%;
   }
+  }
 }
+.l-single__main{
+  margin: 0;
+  background:url(..//images/single.png) no-repeat;
+  height: 34vh;
+  h1{
+    display: flex;
+    display: -webkit-flex;
+    font-size:10vw;
+    height: 15vh;
+    color: white;
+    align-items:flex-end;
+    margin: 0 0 0 4%;
+    font-weight: 700;
+    width: 90vw;
+  }
+  @include pc{
+    height: 50vh;
+  h1{
+    align-items:flex-end;
+    height: 60%;
+    font-size: 3vw;
+    display: flex;
+    font-weight: 700;
+    margin: auto;
+  }
+  }
 }

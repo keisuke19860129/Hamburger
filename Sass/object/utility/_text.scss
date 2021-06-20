@@ -106,3 +106,22 @@
         }
     }
 }
+
+.u-single__text__wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .u-single__text__contents{
+        background-color:#F5F5F5;
+        width: 90vw;
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            display: flex;
+            
+        }
+    }
+    
+}
+}
