@@ -109,9 +109,17 @@
       }
     }
   }
+.p-single__visual1{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
 
-.p-single__wrapper{
-  img{
-    width: 80%;
-  }
+.p-single__visual2{
+  width: 80%;
+  margin: 0 0 0 10%;
+}
+
+.p-single__visual3{
+  width: 100%;
 }
