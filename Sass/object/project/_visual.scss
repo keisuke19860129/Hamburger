@@ -113,13 +113,26 @@
   width: 100%;
   justify-content: center;
   display: flex;
+  object-fit: fill;
 }
 
 .p-single__visual2{
   width: 80%;
   margin: 0 0 0 10%;
+  object-fit: fill;
 }
 
 .p-single__visual3{
   width: 100%;
+  object-fit: fill;
+}
+
+.p-single__html__visual{
+  margin: 5% 0 5% 5%;
+  height: 35vh;
+  background-color: #F5F5F5;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

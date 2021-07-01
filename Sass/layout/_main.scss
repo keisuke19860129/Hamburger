@@ -53,6 +53,7 @@
   height: 34vh;
   background-color: black;
   background-size: cover;
+  object-fit: fill;
   h2{
     display: flex;
     display: -webkit-flex;
@@ -71,7 +72,6 @@
   }
   @include pc{
     height: 50vh;
-
   h2{
     align-items:flex-end;
     height: 60%;
@@ -90,9 +90,10 @@
 }
 .l-single__main{
   margin: 0;
-  background:url(..//images/single.png) no-repeat;
+  background:url(..//images/single.png) no-repeat center;
   height: 34vh;
   background-size: cover;
+  object-fit: fill;
   h1{
     display: flex;
     display: -webkit-flex;
@@ -105,14 +106,18 @@
     width: 90vw;
   }
   @include pc{
+    background:url(..//images/single2.png) no-repeat;
     height: 50vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: fill;
   h1{
     align-items:flex-end;
-    height: 60%;
+    height: 50%;
     font-size: 3vw;
     display: flex;
     font-weight: 700;
-    margin: auto;
+    margin-left: 1%;
   }
   }
 }

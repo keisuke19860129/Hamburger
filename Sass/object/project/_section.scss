@@ -17,17 +17,35 @@
   img{
   height: 25vh;
   margin-bottom: 5%;
+  object-fit: fill;
   }
   div{
     display: flex;
     margin:  5% 0;
+    object-fit: fill;
     img{
       width: 35vw;
       height: 15vh;
+      object-fit: fill;
     }
     p{
       margin: 0 3%;
       font-size: 3.5vw;
+    }
+  }
+  @include pc(){
+    div{
+      margin: unset;
+      img{
+        height: 35vh;
+        
+      }
+      p{
+        font-size: 2vw;
+        width: 40%;
+        height: 25vh;
+        margin: 0 1%;
+      }
     }
   }
 }
