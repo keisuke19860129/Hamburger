@@ -816,7 +816,7 @@ body.is-open {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    height: 50%;
+    height: 60%;
     font-size: 3vw;
     display: -webkit-box;
     display: -ms-flexbox;
