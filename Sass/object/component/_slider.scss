@@ -12,6 +12,7 @@
         -webkit-align-items:space-between;
         margin: 10% 0 -10% 10%;
         cursor: unset;
+        font-size: 1vw;
     }
 }
 .c-menu__list__slider {
@@ -34,7 +35,7 @@
                 a{
                 text-decoration: none;
                 color:#707070;
-                font-size: 100%;
+                font-size: 0.8vw;
                 font-weight: 300;
             }
         }
@@ -49,6 +50,13 @@
 .c-menu__list__slider3{
     @include pc(){
     height: 274.5vh;
+    background-color: #f2ede9;
+}
+}
+
+.c-menu__list__slider4{
+    @include pc(){
+    height: 599.3vh;
     background-color: #f2ede9;
 }
 }

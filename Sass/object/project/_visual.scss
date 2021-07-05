@@ -111,21 +111,36 @@
   }
 .p-single__visual1{
   width: 100%;
-  justify-content: center;
   display: flex;
   object-fit: fill;
+  @include pc(){
+    margin: 0 0 0 5%;
+    width: 72vw;
+    padding: 0;
+  }
 }
 
 .p-single__visual2{
   width: 80%;
   margin: 0 0 0 10%;
   object-fit: fill;
+  @include pc(){
+    width: 60vw;
+    margin: 0 10% 0 10%;
+  }
 }
 
 .p-single__visual3{
-  width: 100%;
+  width: 80%;
+  margin: 5% 0 1% 10%;
   object-fit: fill;
-}
+  @include pc(){
+    width: 24.5%;
+    height:25%;
+    margin: 1% 1% 0 0;
+    display:inline-grid;
+    }
+  }
 
 .p-single__html__visual{
   margin: 5% 0 5% 5%;
@@ -135,4 +150,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include pc(){
+    width: 71%;
+    font-size: 1vw;
+    justify-content: unset;
+  }
 }

@@ -108,8 +108,7 @@
   @include pc{
     background:url(..//images/single2.png) no-repeat;
     height: 50vh;
-    width: 100%;
-    background-size: cover;
+    background-size: 80vw;
     object-fit: fill;
   h1{
     align-items:flex-end;
@@ -117,7 +116,7 @@
     font-size: 3vw;
     display: flex;
     font-weight: 700;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   }
 }

@@ -6,4 +6,7 @@
         border: solid 1px #333;
         text-align: center;
     }
+    @include pc(){
+        width: 71%;
+    }
 }

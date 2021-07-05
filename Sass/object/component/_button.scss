@@ -20,6 +20,7 @@
     }
 }
 
+nav{
 .c-submit__button2{
     width: 90%;
     height: 4vh;
@@ -27,8 +28,18 @@
     cursor: pointer;
     border-radius: 6px;
     border: #707070 solid 1px;
-    @include pc{
-        width:5vw;
-        cursor: pointer;
     }
+    @include pc{
+        .c-submit__button2{
+        width:15vw;
+        height: 7vh;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 0.8vw;
+    }
+    p{
+        margin: 3% 0 5% 4%;
+        font-size: 1vw;
+    }
+}
 }
