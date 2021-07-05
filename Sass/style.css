@@ -826,6 +826,53 @@ body.is-open {
   }
 }
 
+.l-page__main {
+  margin: 0;
+  background: url(..//images/page.png) no-repeat center;
+  height: 34vh;
+  background-size: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.l-page__main h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  font-size: 10vw;
+  height: 15vh;
+  color: white;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 0 0 4%;
+  font-weight: 700;
+  width: 90vw;
+}
+
+@media (min-width: 1025px) {
+  .l-page__main {
+    background: url(..//images/page2.png) no-repeat;
+    height: 50vh;
+    background-size: 85vw;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .l-page__main h1 {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 60%;
+    font-size: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    margin-left: 5%;
+  }
+}
+
 .l-sidebar a {
   display: block;
   color: #707070;
